@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1630"/>
+      <stop offset=".28" stop-color="#23407a"/>
+      <stop offset=".52" stop-color="#6f8fc4"/>
+      <stop offset=".68" stop-color="#e9b98a"/>
+      <stop offset=".76" stop-color="#f6d49a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".62" cy=".735" r=".42">
+      <stop offset="0" stop-color="#fff6dc" stop-opacity="1"/>
+      <stop offset=".08" stop-color="#ffe3a3" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="#f3b46b" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#f3b46b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="softer" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+    <linearGradient id="cloudTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#c9d4ea" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="cloudWarm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff1dc" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#e7a97a" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a7fa6"/><stop offset="1" stop-color="#5d5b84"/></linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f4468"/><stop offset="1" stop-color="#262b48"/></linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1f36"/><stop offset="1" stop-color="#0b0f1f"/></linearGradient>
+  </defs>
+  <rect width="1200" height="1400" fill="url(#sky)"/>
+  <rect width="1200" height="1400" fill="url(#sun)"/>
+  <!-- high cloud bank -->
+  <g filter="url(#softer)" opacity=".55">
+    <ellipse cx="220" cy="210" rx="320" ry="60" fill="#c8d6f2"/>
+    <ellipse cx="900" cy="150" rx="380" ry="55" fill="#b8c8ea"/>
+  </g>
+  <!-- billowing clouds -->
+  <g filter="url(#soft)">
+    <g opacity=".92">
+      <ellipse cx="160" cy="470" rx="190" ry="70" fill="url(#cloudTop)"/>
+      <ellipse cx="300" cy="430" rx="150" ry="85" fill="url(#cloudTop)"/>
+      <ellipse cx="430" cy="480" rx="170" ry="62" fill="url(#cloudTop)"/>
+      <ellipse cx="80"  cy="510" rx="160" ry="45" fill="url(#cloudTop)"/>
+    </g>
+    <g opacity=".88">
+      <ellipse cx="820" cy="380" rx="180" ry="75" fill="url(#cloudTop)"/>
+      <ellipse cx="960" cy="340" rx="150" ry="92" fill="url(#cloudTop)"/>
+      <ellipse cx="1100" cy="400" rx="190" ry="70" fill="url(#cloudTop)"/>
+      <ellipse cx="700" cy="420" rx="140" ry="48" fill="url(#cloudTop)"/>
+    </g>
+    <g opacity=".9">
+      <ellipse cx="300" cy="790" rx="260" ry="52" fill="url(#cloudWarm)"/>
+      <ellipse cx="460" cy="760" rx="170" ry="60" fill="url(#cloudWarm)"/>
+      <ellipse cx="1020" cy="820" rx="250" ry="46" fill="url(#cloudWarm)"/>
+      <ellipse cx="880" cy="845" rx="190" ry="36" fill="url(#cloudWarm)"/>
+    </g>
+  </g>
+  <!-- land -->
+  <path d="M0 1010 L120 985 L210 1000 L300 960 L360 975 L420 940 L470 945 L520 920 L600 925 L640 905 L700 930 L790 940 L860 915 L930 935 L1010 925 L1100 950 L1200 935 L1200 1400 L0 1400Z" fill="url(#far)" opacity=".85"/>
+  <path d="M0 1060 C150 1040 260 1075 380 1050 C470 1032 520 1000 560 995 L640 995 C660 1020 700 1035 780 1040 C900 1048 1020 1030 1200 1045 L1200 1400 L0 1400Z" fill="url(#mid)"/>
+  <path d="M0 1150 C220 1120 420 1160 620 1135 C820 1110 1000 1150 1200 1125 L1200 1400 L0 1400Z" fill="url(#near)"/>
+  <!-- fence line -->
+  <g stroke="#0a0d1a" stroke-width="5" stroke-linecap="round">
+    <line x1="60" y1="1178" x2="60" y2="1128"/><line x1="200" y1="1170" x2="200" y2="1122"/>
+    <line x1="340" y1="1166" x2="340" y2="1120"/><line x1="480" y1="1163" x2="480" y2="1119"/>
+    <line x1="620" y1="1160" x2="620" y2="1118"/>
+  </g>
+  <g stroke="#0a0d1a" stroke-width="2" fill="none" opacity=".9">
+    <path d="M60 1140 Q130 1146 200 1134 T340 1131 T480 1130 T620 1129"/>
+    <path d="M60 1158 Q130 1163 200 1151 T340 1148 T480 1147 T620 1146"/>
+  </g>
+  <!-- little homestead -->
+  <g fill="#0a0d1a" transform="translate(860 1068)">
+    <rect x="0" y="22" width="70" height="40"/>
+    <path d="M-8 24 L35 -6 L78 24Z"/>
+    <rect x="50" y="-2" width="8" height="18"/>
+    <rect x="96" y="30" width="46" height="32"/>
+    <path d="M90 32 L119 12 L148 32Z"/>
+  </g>
+  <rect x="884" y="1098" width="12" height="12" fill="#ffd58a" opacity=".9"/>
+</svg>
