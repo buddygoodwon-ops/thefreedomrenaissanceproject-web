@@ -1,6 +1,6 @@
 /* Swipe between pages (like SlamDunk) + registration form handling. */
 (function () {
-  var ORDER = ["index", "story", "idea", "plan", "place", "white-paper", "join"];
+  var ORDER = ["index", "story", "idea", "plan", "movement", "place", "white-paper", "join"];
   function cur() {
     var p = location.pathname.split("/").pop().replace(/\.html$/i, "");
     return p || "index";
