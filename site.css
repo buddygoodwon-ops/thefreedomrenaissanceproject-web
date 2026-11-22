@@ -211,3 +211,18 @@ fieldset.field legend { margin-bottom: 10px; }
 
 /* v5: modern font for the site name (Space Grotesk, same as SlamDunk) */
 .brand-title,.brand-name{font-family:'Space Grotesk',Inter,ui-sans-serif,system-ui,sans-serif!important;font-weight:700!important;letter-spacing:-.02em!important}
+
+/* v6: Save to Home Screen */
+.footer-bar button.footer-btn{border:0;background:transparent;cursor:pointer;padding:0}
+.a2hs-cta svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.a2hs-modal{position:fixed;inset:0;z-index:100;display:none;align-items:flex-end;justify-content:center;padding:20px;background:rgba(3,6,14,.62);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.a2hs-modal.open{display:flex}
+@media (min-width:600px){.a2hs-modal{align-items:center}}
+.a2hs-card{position:relative;width:min(420px,100%);padding:28px 24px 22px;border-radius:22px;background:#0d1428;border:1px solid rgba(228,238,250,.18);box-shadow:0 30px 70px rgba(0,0,0,.55);text-align:center;color:var(--ink)}
+.a2hs-card img{border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.a2hs-card h3{margin:14px 0 4px;font:700 22px/1.2 'Space Grotesk',Inter,sans-serif}
+.a2hs-card p{margin:0 0 14px;color:var(--ink-dim);font-size:15px}
+.a2hs-card ol{margin:0;padding:0 0 0 1.3em;text-align:left;color:#d6daea;font-size:15.5px;line-height:1.6}
+.a2hs-card li{margin-bottom:8px}
+.a2hs-close{position:absolute;top:10px;right:12px;width:40px;height:40px;border:0;border-radius:50%;background:transparent;color:var(--ink-dim);font-size:26px;line-height:1;cursor:pointer}
+.a2hs-close:hover{background:rgba(255,255,255,.08);color:#fff}
