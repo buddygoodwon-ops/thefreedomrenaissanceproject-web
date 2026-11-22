@@ -193,3 +193,14 @@ fieldset.field legend { margin-bottom: 10px; }
 .feature.active h3{color:var(--gold)!important}
 .hero-art{background:#5d86c4 url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat}
 .hero-art img{display:none}
+
+/* v3: one-line name, no White Paper bullet, cloud-colored buttons */
+.brand > span:last-child{display:flex;flex-wrap:nowrap;align-items:baseline;gap:.28em}
+.brand-title,.brand-name{margin:0!important;font:700 25px/1.1 var(--serif)!important;letter-spacing:-.005em!important;text-transform:none!important;color:var(--ink)!important;white-space:nowrap}
+.features .feature:has(a[href="white-paper.html"]){display:none}
+:root{--cloud:linear-gradient(180deg,#ffffff 0%,#e4eefa 55%,#bcd3ee 100%)}
+.btn-primary,.footer-cta,.footer-cta:hover{background:var(--cloud)!important;color:#14223f!important;box-shadow:0 10px 26px rgba(150,185,230,.28)!important}
+.btn-ghost{background:rgba(228,238,250,.12);border-color:rgba(228,238,250,.55);color:#f2f7ff}
+.btn-ghost:hover{background:rgba(228,238,250,.22)}
+.step::before{background:var(--cloud);color:#14223f}
+@media (max-width:980px){.brand-title,.brand-name{font-size:clamp(16px,4.9vw,20px)!important}}
