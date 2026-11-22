@@ -185,3 +185,11 @@ fieldset.field legend { margin-bottom: 10px; }
   .article p, .article li { font-size: 16px; }
   .footer-bar { right: auto; left: 50%; transform: translateX(-50%); }
 }
+
+/* v2: sky photo, no logo, no gradient text, no italics */
+.brand-mark{display:none}
+.grad,.brand-name .grad,.headline .grad,.page-heading .grad,.feature.active h3{background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;color:inherit!important;-webkit-text-fill-color:currentColor}
+.headline em,.page-heading em,.brand-name .grad{font-style:normal}
+.feature.active h3{color:var(--gold)!important}
+.hero-art{background:#5d86c4 url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat}
+.hero-art img{display:none}
