@@ -204,3 +204,6 @@ fieldset.field legend { margin-bottom: 10px; }
 .btn-ghost:hover{background:rgba(228,238,250,.22)}
 .step::before{background:var(--cloud);color:#14223f}
 @media (max-width:980px){.brand-title,.brand-name{font-size:clamp(16px,4.9vw,20px)!important}}
+
+/* v4: Back Story is the last bullet */
+.features .feature:has(a[href="story.html"]){order:9}
