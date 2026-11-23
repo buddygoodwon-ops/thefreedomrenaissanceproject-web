@@ -231,3 +231,13 @@ fieldset.field legend { margin-bottom: 10px; }
 .feature-icon{border-color:rgba(205,211,222,.7)!important;background:rgba(205,211,222,.08)!important}
 .feature:hover .feature-icon{background:rgba(205,211,222,.18)!important}
 .feature.active .feature-icon{background:linear-gradient(180deg,#f4f6f9,#c3cad6 60%,#9aa3b2)!important;border-color:transparent!important;box-shadow:0 6px 18px rgba(195,202,214,.3)!important}
+
+/* v8: shiny silver instead of gold */
+:root{--gold:#d9dee6;--amber:#b8c0cc;--silver:linear-gradient(100deg,#8d96a5 0%,#f7f9fc 22%,#c6cdd8 42%,#ffffff 55%,#a4adbb 75%,#eef1f6 100%)}
+.eyebrow,.feature.active h3,.feature.active h3 a,.article h3,.hint b,.toc h4{background:var(--silver)!important;background-size:200% 100%!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;-webkit-text-fill-color:transparent!important;animation:shine 6s ease-in-out infinite alternate}
+@keyframes shine{from{background-position:0% 0}to{background-position:100% 0}}
+@media (prefers-reduced-motion: reduce){.eyebrow,.feature.active h3,.article h3,.hint b,.toc h4{animation:none}}
+.article blockquote{border-left-color:#cfd5df!important;border-image:linear-gradient(180deg,#f7f9fc,#8d96a5) 1}
+.hint{background:linear-gradient(180deg,rgba(214,220,230,.09),rgba(214,220,230,.03))!important;border-color:rgba(214,220,230,.28)!important}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:#d9dee6!important;box-shadow:0 0 0 3px rgba(217,222,230,.2)!important}
+.check input{accent-color:#c6cdd8}
