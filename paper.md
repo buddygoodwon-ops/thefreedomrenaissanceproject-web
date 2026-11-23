@@ -40,7 +40,7 @@ Mello-Roos has a property this paper treats as a design principle: it is tied to
 
 ### 3.1 It is regressive
 
-Because home values are a much larger multiple of income for low-income families than for the wealthy, residential property taxes take a larger share of poorer households' income. The Institute on Taxation and Economic Policy (ITEP) found the poorest fifth of taxpayers paid 4.2 percent of income in property taxes, against 3.0 percent for the middle fifth and about 1.7 percent for the wealthiest ([ITEP, 2019](https://itep.org/?p=39874)). ITEP, which generally favors progressive taxation, reaches the same conclusion this paper does on this point: the tax is disconnected from ability to pay ([ITEP](https://itep.org/property-tax-circuit-breakers-2019/)).
+Because home values are a much larger multiple of income for low-income families than for the wealthy, residential property taxes take a larger share of poorer households' income. The Institute on Taxation and Economic Policy (ITEP), which generally favors progressive taxation, reaches the same conclusion this paper does on this point: the tax is disconnected from ability to pay ([ITEP](https://itep.org/property-tax-circuit-breakers-2019/)).
 
 The burden is sharpest for older owners. In Health and Retirement Study data, 10 percent of homeowners aged 50 to 75 paid 9 percent or more of their income in property taxes, and for a quarter of those the annual bill was at least 40 percent of their household financial assets (Federal Reserve, FEDS 2008-51). Housing-rich, income-poor retirees are exactly the group least able to absorb a bill that rises with the market.
 
