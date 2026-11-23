@@ -147,14 +147,15 @@ inner("idea", "The Idea", "A tax on owning <em class='grad'>is a tax on freedom.
 "For most households it's the second-biggest housing cost after the mortgage. For many retirees, it's the biggest.",
 "Paid off is not the same as owned<small>The property tax never ends</small>",
 '''<p>Income taxes are set by Congress and the President; ordinary citizens have almost no leverage there. Property taxes are different. They are local, they are visible, and in many states they are set by a handful of county officials.</p>
-<p>They are also uniquely punishing for people on fixed incomes. In my father's last years, his property tax bill consumed a share of his Social Security that no one would design on purpose. That is the moment the issue became personal.</p>
+<p>They also fall hardest on people with fixed incomes. Social Security does not rise with the value of a home, but the tax bill follows that value, and it continues every year for life, even after the mortgage is paid off.</p>
 <h2>Four problems with the property tax</h2>
 <h3>1. It's regressive</h3>
 <p>Because a home is a much bigger multiple of income for a working family than for a wealthy one, the property tax takes a larger share of income from people with less. Even researchers who generally favor higher taxes on the wealthy agree on this point.</p>
 <h3>2. It taxes wealth you haven't realized — and can't easily sell</h3>
 <p>Mention a tax on unrealized capital gains to an investor and they object instantly: the gain is only on paper, it could disappear, and you'd have to sell to pay. A market-value property tax is worse on every count. It taxes the <em>whole</em> value, not just the gain, every single year. And you can't sell one percent of your house to pay the bill.</p>
-<h3>3. It's enforced harder than any other tax</h3>
-<p>Fall behind on income taxes and the IRS has ten years to collect, offers payment plans, and generally needs a court order to take your primary home. Fall behind on property taxes and, in most states, the debt never expires and the remedy is selling your house. Until the Supreme Court's 2023 <em>Tyler v. Hennepin County</em> ruling, some counties even kept the owner's equity above the debt.</p>
+<h3>3. Its enforcement is draconian</h3>
+<p>Fall behind on income taxes and the IRS has ten years to collect, can accept less than the full amount through an offer in compromise, offers payment plans, and generally needs a court order to take your primary home. Property tax enforcement offers none of that. There is no settlement for less than what is owed and no forgiveness, and in most states the debt never expires. The remedy is selling the house. Until the Supreme Court's 2023 <em>Tyler v. Hennepin County</em> ruling, some counties even kept the owner's equity above the debt.</p>
+<p>California's rules are typical. Taxes unpaid on June 30 put the home in default, and a penalty of 1.5 percent a month (18 percent a year) begins to accrue. After five years in default, the county tax collector gains the power to sell the home at public auction. The only ways to stop it are to pay everything owed or to enter a single installment plan that also requires paying each new year's bill on time. Miss a payment and the plan is cancelled, and the house can go to auction.</p>
 <h3>4. It changes what ownership means</h3>
 <p>If you must pay every year to keep something you already bought — with income that was already taxed — and the government can sell it if you stop, then in practice you hold it subject to rent owed to the state.</p>
 <h2>California shows a better principle</h2>
