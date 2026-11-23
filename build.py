@@ -80,7 +80,7 @@ def page(slug, title, desc, body):
 <nav class="footer-bar" aria-label="Quick actions">
   <a class="footer-btn footer-cta" href="join.html">Register</a>
   <div class="fb-divider"></div>
-  <a class="footer-btn" href="white-paper.html" aria-label="Read the white paper">{icon("white-paper")}</a>
+  <a class="footer-btn footer-wp" href="white-paper.html" aria-label="Read the white paper">{icon("white-paper")}<span>White Paper</span></a>
   <div class="fb-divider"></div>
   <a class="footer-btn" href="index.html" aria-label="Home"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg></a>
 </nav>
