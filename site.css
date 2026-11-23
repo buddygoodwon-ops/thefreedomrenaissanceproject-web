@@ -164,6 +164,8 @@ fieldset.field legend { margin-bottom: 10px; }
 .footer-btn svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .footer-cta { width: auto; padding: 0 18px; background: var(--gradient); color: #0b1124; font: 700 13.5px/1 var(--sans); }
 .footer-cta:hover { background: var(--gradient); filter: brightness(1.06); }
+.footer-wp { width: auto; padding: 0 16px 0 13px; gap: 7px; border: 1px solid rgba(255,255,255,.28); font: 600 13.5px/1 var(--sans); white-space: nowrap; }
+.footer-wp svg { width: 17px; height: 17px; }
 .fb-divider { width: 1px; height: 22px; background: rgba(255,255,255,.14); }
 
 /* ---------- responsive ---------- */
