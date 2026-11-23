@@ -226,3 +226,8 @@ fieldset.field legend { margin-bottom: 10px; }
 .a2hs-card li{margin-bottom:8px}
 .a2hs-close{position:absolute;top:10px;right:12px;width:40px;height:40px;border:0;border-radius:50%;background:transparent;color:var(--ink-dim);font-size:26px;line-height:1;cursor:pointer}
 .a2hs-close:hover{background:rgba(255,255,255,.08);color:#fff}
+
+/* v7: silver icon circles */
+.feature-icon{border-color:rgba(205,211,222,.7)!important;background:rgba(205,211,222,.08)!important}
+.feature:hover .feature-icon{background:rgba(205,211,222,.18)!important}
+.feature.active .feature-icon{background:linear-gradient(180deg,#f4f6f9,#c3cad6 60%,#9aa3b2)!important;border-color:transparent!important;box-shadow:0 6px 18px rgba(195,202,214,.3)!important}
