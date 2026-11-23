@@ -42,6 +42,8 @@ Mello-Roos has a property this paper treats as a design principle: it is tied to
 
 Because home values are a much larger multiple of income for low-income families than for the wealthy, residential property taxes take a larger share of poorer households' income. The Institute on Taxation and Economic Policy (ITEP), which generally favors progressive taxation, reaches the same conclusion this paper does on this point: the tax is disconnected from ability to pay ([ITEP](https://itep.org/property-tax-circuit-breakers-2019/)).
 
+The burden on individual households can be severe. In 2023, 6 million homeowners with incomes below $30,000 spent more than half of their income on housing costs ([Harvard Joint Center for Housing Studies](https://www.jchs.harvard.edu/node/6356)). In New Jersey, more than a third of households age 50 and older earning under $50,000 pay at least $9,000 a year in property taxes ([AARP](https://blog.aarp.org/fighting-for-you/new-jersey-property-taxes)). For a retired couple living on $50,000 from Social Security, a pension and savings, that is 18 percent of their income, every year, for as long as they own the home.
+
 The burden is sharpest for older owners. In Health and Retirement Study data, 10 percent of homeowners aged 50 to 75 paid 9 percent or more of their income in property taxes, and for a quarter of those the annual bill was at least 40 percent of their household financial assets (Federal Reserve, FEDS 2008-51). Housing-rich, income-poor retirees are exactly the group least able to absorb a bill that rises with the market.
 
 ### 3.2 It taxes unrealized, illiquid wealth
